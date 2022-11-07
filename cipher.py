@@ -1,4 +1,4 @@
-alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z','a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 end_of_game=False
 while not end_of_game:
@@ -21,7 +21,9 @@ while not end_of_game:
     caeser(start_text=text,shift_amount=shift,cipher_direction=direction)
     a=input(" Type 'yes' if you want to go again .Otherwise type 'no'")
     if a=="yes":
+        end_of_game=False
+    else:
         end_of_game=True
         print("Good Bye")
-    else:
-        end_of_game=False
+
+
