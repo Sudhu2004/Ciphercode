@@ -1,0 +1,17 @@
+Type 'encode' to encrypt, type 'decode' to decrypt:
+encode
+Type your message:
+hello how are you 33
+Type the shift number:
+33
+The encoded message is olssv ovd hyl fvb 33
+ Type 'yes' if you want to go again .Otherwise type 'no'yes
+Type 'encode' to encrypt, type 'decode' to decrypt:
+decode
+Type your message:
+olssv ovd hyl fvb 33
+Type the shift number:
+33
+The decoded message is hello how are you 33
+ Type 'yes' if you want to go again .Otherwise type 'no'no
+Good Bye
